@@ -1,5 +1,6 @@
 
-
+module Login
+  def Login.log_in_functionality()
 puts " -ˏˋ. Leave Managment System ˊˎ-"
 
 puts     "   ╔═══════☆.✵.☆═══════╗ "
@@ -13,6 +14,8 @@ number = gets.chomp.to_i
 case number
 
 when 1
+
+  def hrlogin
   puts "===================================================================="
   puts "ENTER DETAILS ✍️ "
   puts "===================================================================="
@@ -22,12 +25,13 @@ when 1
     puts "⌨ Enter password ⌨"
   password = gets
 
- if (email =='HR@shriffle' && password == '12@12' )
+  raise if (email =='HR@shriffle' && password == '12@12' )
   puts "Welcome to log in Succusfully as HR ! 😃"
 
  else
   puts "Invalid log in..! ⚠"
  end
+end
 
 when 2
   puts "===================================================================="
@@ -42,12 +46,17 @@ password = gets.chomp.to_s
  if (email == 'Employee@gmail.com' && password =='123' )
   puts "Welcome to log in Succusfully as Employee! 😄"
 
- else
-  puts "Invalid log in..! ⚠"
+   else
+    puts "Invalid log in..! ⚠"
+   end
+
+   else
+    puts "Not Valid kindly, choose 1 or 2 option"
+  end 
  end
-
-else
-puts "Not Valid kindly, choose 1 or 2 option"
-
 end
+
+
+
+
 
