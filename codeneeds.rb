@@ -13,7 +13,7 @@ class HR
   def initialize(name,occupation,el,cl,sl,lwp,ml,hl)
     @name = name;
     @occupation = occupation;
-    @EL   = el;
+    @EL   = el;..
     @CL   = cl;
     @SL   = sl;
     @LWP  = lwp;
@@ -39,7 +39,7 @@ class HR
 end
 
 end
-obj = HR.new("uv","rnginerar",1,2,34,54,69,0)
+obj = HR.new("uv","developer",1,2,34,54,69,0)
 obj2 = HR.new("tani","dr.",1,2,34,79,24,9)
 obj.view_detils
 obj2.view_detils
