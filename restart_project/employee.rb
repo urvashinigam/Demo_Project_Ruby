@@ -1,4 +1,4 @@
- class Employee
+ class Curd_operation
     EMPLOYEE_DATA = []
     attr_accessor :id, :name
     def initialize(name)
